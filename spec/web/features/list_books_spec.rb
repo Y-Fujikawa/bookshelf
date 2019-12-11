@@ -1,4 +1,4 @@
-require 'features_helper'
+require_relative '../../../spec/features_helper'
 
 describe 'List books' do
   let(:repository) { BookRepository.new }
